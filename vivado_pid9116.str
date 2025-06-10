@@ -1,0 +1,241 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 9116
+License: Customer
+
+Current time: 	Tue Jul 30 15:58:51 CST 2024
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 358 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	wsp
+User home directory: C:/Users/wsp
+User working directory: C:/Users/wsp/Desktop/2024-longxin-cup
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/ToolSoftware/Vivado2019.2/Vivado
+HDI_APPROOT: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2
+RDI_DATADIR: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/data
+RDI_BINDIR: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/wsp/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/wsp/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/wsp/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/wsp/Desktop/2024-longxin-cup/vivado.log
+Vivado journal file location: 	C:/Users/wsp/Desktop/2024-longxin-cup/vivado.jou
+Engine tmp dir: 	C:/Users/wsp/Desktop/2024-longxin-cup/.Xil/Vivado-9116-DESKTOP-FQAI2HO
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2
+XILINX_SDK: E:/ToolSoftware/Vivado2019.2/Vitis/2019.2
+XILINX_VITIS: E:/ToolSoftware/Vivado2019.2/Vitis/2019.2
+XILINX_VIVADO: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2
+XILINX_VIVADO_HLS: E:/ToolSoftware/Vivado2019.2/Vivado/2019.2
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 888 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 87 MB (+88309kb) [00:00:05]
+// [Engine Memory]: 724 MB (+607975kb) [00:00:05]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\wsp\Desktop\2024-longxin-cup\thinpad_top.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 985 MB (+235548kb) [00:00:08]
+// [GUI Memory]: 115 MB (+25117kb) [00:00:08]
+// [GUI Memory]: 122 MB (+1630kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2656 ms.
+// Tcl Message: open_project C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/wsp/Desktop/2024-longxin-cup' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ToolSoftware/Vivado2019.2/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 59 MB. Current time: 7/30/24, 3:58:54 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.312 ; gain = 352.234 
+// [Engine Memory]: 1,049 MB (+15350kb) [00:00:11]
+// Project name: thinpad_top; location: C:/Users/wsp/Desktop/2024-longxin-cup; part: xc7a200tfbg676-2
+dismissDialog("Open Project"); // bB (cr)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cr)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// Tcl Message: [Tue Jul 30 15:59:03 2024] Launched synth_1... Run output will be captured here: C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.runs/synth_1/runme.log [Tue Jul 30 15:59:03 2024] Launched impl_1... Run output will be captured here: C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 50 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cr)
+// bB (cr):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bB (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// f (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// Tcl Message: [Tue Jul 30 16:00:17 2024] Launched synth_1... Run output will be captured here: C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.runs/synth_1/runme.log [Tue Jul 30 16:00:17 2024] Launched impl_1... Run output will be captured here: C:/Users/wsp/Desktop/2024-longxin-cup/thinpad_top.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 159 seconds
+dismissDialog("Bitstream Generation Completed"); // aj (cr)
+// [GUI Memory]: 129 MB (+480kb) [00:19:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 61 MB. Current time: 7/30/24, 4:28:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 4:58:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 5:28:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 5:58:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 6:28:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 54 MB. Current time: 7/30/24, 6:58:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 7:28:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 7:59:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 8:29:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 8:59:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 9:29:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 9:59:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 10:29:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 10:59:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 11:29:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/30/24, 11:59:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 12:29:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 12:59:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 1:29:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 1:59:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 2:29:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 2:59:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 3:29:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 3:59:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 4:29:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 4:59:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 5:29:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 5:59:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 6:29:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 6:59:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 7:29:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 7:59:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 8:29:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 8:59:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 9:29:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 9:59:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 10:29:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 10:59:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 11:29:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 54 MB. Current time: 7/31/24, 11:59:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 12:29:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 12:59:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 1:29:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 1:59:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 2:29:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 2:59:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 55 MB. Current time: 7/31/24, 3:29:09 PM CST

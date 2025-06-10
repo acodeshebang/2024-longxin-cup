@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="104530000fs"></ZoomStartTime>
+      <ZoomEndTime time="110765001fs"></ZoomEndTime>
+      <Cursor1Time time="107410000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="253"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="170" />
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_in_ready">
+      <obj_property name="ElementShortName">io_in_ready</obj_property>
+      <obj_property name="ObjectShortName">io_in_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_in_valid">
+      <obj_property name="ElementShortName">io_in_valid</obj_property>
+      <obj_property name="ObjectShortName">io_in_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_ready">
+      <obj_property name="ElementShortName">io_out_ready</obj_property>
+      <obj_property name="ObjectShortName">io_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_valid">
+      <obj_property name="ElementShortName">io_out_valid</obj_property>
+      <obj_property name="ObjectShortName">io_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_valid">
+      <obj_property name="ElementShortName">io_out_valid</obj_property>
+      <obj_property name="ObjectShortName">io_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/PC_obj/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_in_bits_now_pc">
+      <obj_property name="ElementShortName">io_in_bits_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_in_bits_Instruction">
+      <obj_property name="ElementShortName">io_in_bits_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_bits_now_pc">
+      <obj_property name="ElementShortName">io_out_bits_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Decode_obj/io_Instruction">
+      <obj_property name="ElementShortName">io_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_GRGDataSel_option">
+      <obj_property name="ElementShortName">io_out_bits_GRGDataSel_option[1:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_GRGDataSel_option[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_conditional_branch_option">
+      <obj_property name="ElementShortName">io_conditional_branch_option[3:0]</obj_property>
+      <obj_property name="ObjectShortName">io_conditional_branch_option[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/PC_obj/io_if_Jump">
+      <obj_property name="ElementShortName">io_if_Jump</obj_property>
+      <obj_property name="ObjectShortName">io_if_Jump</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_if_Jump">
+      <obj_property name="ElementShortName">io_if_Jump</obj_property>
+      <obj_property name="ObjectShortName">io_if_Jump</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_rj_data">
+      <obj_property name="ElementShortName">io_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_rd_data">
+      <obj_property name="ElementShortName">io_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_now_pc">
+      <obj_property name="ElementShortName">io_out_bits_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/PC_obj/io_if_Jump">
+      <obj_property name="ElementShortName">io_if_Jump</obj_property>
+      <obj_property name="ObjectShortName">io_if_Jump</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_if_Jump">
+      <obj_property name="ElementShortName">io_out_bits_if_Jump</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_if_Jump</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_if_var_pc_Conflict">
+      <obj_property name="ElementShortName">io_if_var_pc_Conflict</obj_property>
+      <obj_property name="ObjectShortName">io_if_var_pc_Conflict</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/PC_obj/io_if_valid">
+      <obj_property name="ElementShortName">io_if_valid</obj_property>
+      <obj_property name="ObjectShortName">io_if_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_valid">
+      <obj_property name="ElementShortName">io_out_valid</obj_property>
+      <obj_property name="ObjectShortName">io_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_if_pc_valid">
+      <obj_property name="ElementShortName">io_if_pc_valid</obj_property>
+      <obj_property name="ObjectShortName">io_if_pc_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/PC_obj/io_alu_out_data">
+      <obj_property name="ElementShortName">io_alu_out_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_alu_out_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/FetchToDecode_reg_Instruction">
+      <obj_property name="ElementShortName">FetchToDecode_reg_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FetchToDecode_reg_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/FetchToDecode_reg_now_pc">
+      <obj_property name="ElementShortName">FetchToDecode_reg_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FetchToDecode_reg_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_reg_now_pc">
+      <obj_property name="ElementShortName">DecodeToExec_reg_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_reg_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_valid">
+      <obj_property name="ElementShortName">io_out_valid</obj_property>
+      <obj_property name="ObjectShortName">io_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/io_mem_read_en">
+      <obj_property name="ElementShortName">io_mem_read_en</obj_property>
+      <obj_property name="ObjectShortName">io_mem_read_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_mem_read_addr">
+      <obj_property name="ElementShortName">io_mem_read_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_mem_read_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_mem_read_Data">
+      <obj_property name="ElementShortName">io_mem_read_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_mem_read_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/io_mem_write_en">
+      <obj_property name="ElementShortName">io_mem_write_en</obj_property>
+      <obj_property name="ObjectShortName">io_mem_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_mem_write_addr">
+      <obj_property name="ElementShortName">io_mem_write_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_mem_write_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_mem_write_Data">
+      <obj_property name="ElementShortName">io_mem_write_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_mem_write_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALUDataSel_obj/io_alu_a_data">
+      <obj_property name="ElementShortName">io_alu_a_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_alu_a_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALUDataSel_obj/io_alu_b_data">
+      <obj_property name="ElementShortName">io_alu_b_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_alu_b_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Decode_obj/io_rd_addr">
+      <obj_property name="ElementShortName">io_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Decode_obj/io_rj_addr">
+      <obj_property name="ElementShortName">io_rj_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Decode_obj/io_rk_addr">
+      <obj_property name="ElementShortName">io_rk_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rk_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_reg_rd_addr">
+      <obj_property name="ElementShortName">DecodeToExec_reg_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_reg_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rd_addr">
+      <obj_property name="ElementShortName">io_out_bits_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_reg_rd_en">
+      <obj_property name="ElementShortName">DecodeToExec_reg_rd_en</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_reg_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rd_en">
+      <obj_property name="ElementShortName">io_out_bits_rd_en</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ExecToMemoryAccess_obj/ExecToMemoryAccess_reg_rd_addr">
+      <obj_property name="ElementShortName">ExecToMemoryAccess_reg_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ExecToMemoryAccess_reg_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/ExecToMemoryAccess_obj/ExecToMemoryAccess_reg_rd_en">
+      <obj_property name="ElementShortName">ExecToMemoryAccess_reg_rd_en</obj_property>
+      <obj_property name="ObjectShortName">ExecToMemoryAccess_reg_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/MemoryAccessToWB_obj/MemoryAccessToWB_reg_rd_addr">
+      <obj_property name="ElementShortName">MemoryAccessToWB_reg_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MemoryAccessToWB_reg_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/MemoryAccessToWB_obj/MemoryAccessToWB_reg_rd_en">
+      <obj_property name="ElementShortName">MemoryAccessToWB_reg_rd_en</obj_property>
+      <obj_property name="ObjectShortName">MemoryAccessToWB_reg_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_out_rj">
+      <obj_property name="ElementShortName">io_out_rj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_rj[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_GRG_rj_in">
+      <obj_property name="ElementShortName">io_GRG_rj_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_GRG_rj_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_out_rk">
+      <obj_property name="ElementShortName">io_out_rk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_rk[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_GRG_rk_in">
+      <obj_property name="ElementShortName">io_GRG_rk_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_GRG_rk_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_out_rd">
+      <obj_property name="ElementShortName">io_out_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/Read_GRG_obj/io_GRG_rd_in">
+      <obj_property name="ElementShortName">io_GRG_rd_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_GRG_rd_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/FetchToDecode_valid">
+      <obj_property name="ElementShortName">FetchToDecode_valid</obj_property>
+      <obj_property name="ObjectShortName">FetchToDecode_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_valid">
+      <obj_property name="ElementShortName">DecodeToExec_valid</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_en">
+      <obj_property name="ElementShortName">io_rd_en</obj_property>
+      <obj_property name="ObjectShortName">io_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_addr_in">
+      <obj_property name="ElementShortName">io_rd_addr_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_addr_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_addr_out">
+      <obj_property name="ElementShortName">io_rd_addr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_addr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rj_addr">
+      <obj_property name="ElementShortName">io_rj_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rk_addr">
+      <obj_property name="ElementShortName">io_rk_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rk_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_data_in">
+      <obj_property name="ElementShortName">io_rd_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rj_data">
+      <obj_property name="ElementShortName">io_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rk_data">
+      <obj_property name="ElementShortName">io_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_data_out">
+      <obj_property name="ElementShortName">io_rd_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_12">
+      <obj_property name="ElementShortName">reg_group_12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_12[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_13">
+      <obj_property name="ElementShortName">reg_group_13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_13[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_addr">
+      <obj_property name="ElementShortName">io_r_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_r_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_data">
+      <obj_property name="ElementShortName">io_r_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_r_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_en">
+      <obj_property name="ElementShortName">io_r_en</obj_property>
+      <obj_property name="ObjectShortName">io_r_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_addr">
+      <obj_property name="ElementShortName">io_w_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_w_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_data">
+      <obj_property name="ElementShortName">io_w_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_w_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_en">
+      <obj_property name="ElementShortName">io_w_en</obj_property>
+      <obj_property name="ObjectShortName">io_w_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_if_pc_valid">
+      <obj_property name="ElementShortName">io_if_pc_valid</obj_property>
+      <obj_property name="ObjectShortName">io_if_pc_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_out_data">
+      <obj_property name="ElementShortName">io_out_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_in_data1">
+      <obj_property name="ElementShortName">io_in_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_in_data2">
+      <obj_property name="ElementShortName">io_in_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_bits_now_pc">
+      <obj_property name="ElementShortName">io_out_bits_now_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_now_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_out_bits_Instruction">
+      <obj_property name="ElementShortName">io_out_bits_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rj_data">
+      <obj_property name="ElementShortName">io_out_bits_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_alu_a_sel">
+      <obj_property name="ElementShortName">io_out_bits_alu_a_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_alu_a_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rk_data">
+      <obj_property name="ElementShortName">io_out_bits_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_alu_b_sel">
+      <obj_property name="ElementShortName">io_out_bits_alu_b_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_alu_b_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_bits_rj_data">
+      <obj_property name="ElementShortName">io_in_bits_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_reg_rj_data">
+      <obj_property name="ElementShortName">DecodeToExec_reg_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_reg_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rj_data">
+      <obj_property name="ElementShortName">io_out_bits_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_bits_rk_data">
+      <obj_property name="ElementShortName">io_in_bits_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/DecodeToExec_reg_rk_data">
+      <obj_property name="ElementShortName">DecodeToExec_reg_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DecodeToExec_reg_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_out_bits_rk_data">
+      <obj_property name="ElementShortName">io_out_bits_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_bits_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/ld_data_Conflict_state">
+      <obj_property name="ElementShortName">ld_data_Conflict_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ld_data_Conflict_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_ext_ram_data_in">
+      <obj_property name="ElementShortName">io_ext_ram_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_ext_ram_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/io_ext_ram_ce_n">
+      <obj_property name="ElementShortName">io_ext_ram_ce_n</obj_property>
+      <obj_property name="ObjectShortName">io_ext_ram_ce_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/Serial_obj/io_RxD">
+      <obj_property name="ElementShortName">io_RxD</obj_property>
+      <obj_property name="ObjectShortName">io_RxD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/Serial_obj/io_TxD">
+      <obj_property name="ElementShortName">io_TxD</obj_property>
+      <obj_property name="ObjectShortName">io_TxD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_en">
+      <obj_property name="ElementShortName">io_w_en</obj_property>
+      <obj_property name="ObjectShortName">io_w_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_en">
+      <obj_property name="ElementShortName">io_r_en</obj_property>
+      <obj_property name="ObjectShortName">io_r_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_addr">
+      <obj_property name="ElementShortName">io_r_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_r_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_addr">
+      <obj_property name="ElementShortName">io_w_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_w_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_r_data">
+      <obj_property name="ElementShortName">io_r_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_r_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/io_w_data">
+      <obj_property name="ElementShortName">io_w_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_w_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/Serial_obj/async_receiver_obj/RxD_data_ready">
+      <obj_property name="ElementShortName">RxD_data_ready</obj_property>
+      <obj_property name="ObjectShortName">RxD_data_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/Serial_obj/async_transmitter_obj/TxD_busy">
+      <obj_property name="ElementShortName">TxD_busy</obj_property>
+      <obj_property name="ObjectShortName">TxD_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/Memctl/Serial_obj/async_transmitter_obj/TxD_start">
+      <obj_property name="ElementShortName">TxD_start</obj_property>
+      <obj_property name="ObjectShortName">TxD_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_out_data">
+      <obj_property name="ElementShortName">io_out_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_alu_option">
+      <obj_property name="ElementShortName">io_alu_option[3:0]</obj_property>
+      <obj_property name="ObjectShortName">io_alu_option[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_in_data1">
+      <obj_property name="ElementShortName">io_in_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/ALU_obj/io_in_data2">
+      <obj_property name="ElementShortName">io_in_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_if_Jump">
+      <obj_property name="ElementShortName">io_if_Jump</obj_property>
+      <obj_property name="ObjectShortName">io_if_Jump</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_rj_data">
+      <obj_property name="ElementShortName">io_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_rd_data">
+      <obj_property name="ElementShortName">io_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/conditional_branch_obj/io_conditional_branch_option">
+      <obj_property name="ElementShortName">io_conditional_branch_option[3:0]</obj_property>
+      <obj_property name="ObjectShortName">io_conditional_branch_option[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_en">
+      <obj_property name="ElementShortName">io_rd_en</obj_property>
+      <obj_property name="ObjectShortName">io_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_addr_in">
+      <obj_property name="ElementShortName">io_rd_addr_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_addr_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_addr_out">
+      <obj_property name="ElementShortName">io_rd_addr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_addr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rj_addr">
+      <obj_property name="ElementShortName">io_rj_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rk_addr">
+      <obj_property name="ElementShortName">io_rk_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rk_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_data_in">
+      <obj_property name="ElementShortName">io_rd_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rj_data">
+      <obj_property name="ElementShortName">io_rj_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rj_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rk_data">
+      <obj_property name="ElementShortName">io_rk_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rk_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/io_rd_data_out">
+      <obj_property name="ElementShortName">io_rd_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_rd_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_0">
+      <obj_property name="ElementShortName">reg_group_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_1">
+      <obj_property name="ElementShortName">reg_group_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_2">
+      <obj_property name="ElementShortName">reg_group_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_3">
+      <obj_property name="ElementShortName">reg_group_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_4">
+      <obj_property name="ElementShortName">reg_group_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_5">
+      <obj_property name="ElementShortName">reg_group_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_6">
+      <obj_property name="ElementShortName">reg_group_6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_7">
+      <obj_property name="ElementShortName">reg_group_7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_7[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_8">
+      <obj_property name="ElementShortName">reg_group_8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_8[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_9">
+      <obj_property name="ElementShortName">reg_group_9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_9[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_10">
+      <obj_property name="ElementShortName">reg_group_10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_10[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_11">
+      <obj_property name="ElementShortName">reg_group_11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_11[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_12">
+      <obj_property name="ElementShortName">reg_group_12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_12[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_13">
+      <obj_property name="ElementShortName">reg_group_13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_13[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_14">
+      <obj_property name="ElementShortName">reg_group_14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_14[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_15">
+      <obj_property name="ElementShortName">reg_group_15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_15[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_16">
+      <obj_property name="ElementShortName">reg_group_16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_16[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_17">
+      <obj_property name="ElementShortName">reg_group_17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_17[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_18">
+      <obj_property name="ElementShortName">reg_group_18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_18[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_19">
+      <obj_property name="ElementShortName">reg_group_19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_19[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_20">
+      <obj_property name="ElementShortName">reg_group_20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_20[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_21">
+      <obj_property name="ElementShortName">reg_group_21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_21[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_22">
+      <obj_property name="ElementShortName">reg_group_22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_22[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_23">
+      <obj_property name="ElementShortName">reg_group_23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_23[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_24">
+      <obj_property name="ElementShortName">reg_group_24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_24[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_25">
+      <obj_property name="ElementShortName">reg_group_25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_25[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_26">
+      <obj_property name="ElementShortName">reg_group_26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_26[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_27">
+      <obj_property name="ElementShortName">reg_group_27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_27[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_28">
+      <obj_property name="ElementShortName">reg_group_28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_28[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_29">
+      <obj_property name="ElementShortName">reg_group_29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_29[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_30">
+      <obj_property name="ElementShortName">reg_group_30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_30[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/reg_group_31">
+      <obj_property name="ElementShortName">reg_group_31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_31[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/casez_tmp">
+      <obj_property name="ElementShortName">casez_tmp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">casez_tmp[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/casez_tmp_0">
+      <obj_property name="ElementShortName">casez_tmp_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">casez_tmp_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/casez_tmp_1">
+      <obj_property name="ElementShortName">casez_tmp_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">casez_tmp_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/_GEN">
+      <obj_property name="ElementShortName">_GEN</obj_property>
+      <obj_property name="ObjectShortName">_GEN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/GenericRegisterGroup_obj/_RANDOM">
+      <obj_property name="ElementShortName">_RANDOM[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">_RANDOM[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/Memctl/io_r_ram_be_n">
+      <obj_property name="ElementShortName">io_r_ram_be_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">io_r_ram_be_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/imm_obj/io_Out_Eximm">
+      <obj_property name="ElementShortName">io_Out_Eximm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">io_Out_Eximm[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/ld_data_Conflict_state">
+      <obj_property name="ElementShortName">ld_data_Conflict_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ld_data_Conflict_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_bits_ram_r">
+      <obj_property name="ElementShortName">io_in_bits_ram_r</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_ram_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_bits_ram_w">
+      <obj_property name="ElementShortName">io_in_bits_ram_w</obj_property>
+      <obj_property name="ObjectShortName">io_in_bits_ram_w</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_ready">
+      <obj_property name="ElementShortName">io_in_ready</obj_property>
+      <obj_property name="ObjectShortName">io_in_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/FetchToDecode_obj/io_in_valid">
+      <obj_property name="ElementShortName">io_in_valid</obj_property>
+      <obj_property name="ObjectShortName">io_in_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/DecodeToExec_obj/io_in_valid">
+      <obj_property name="ElementShortName">io_in_valid</obj_property>
+      <obj_property name="ObjectShortName">io_in_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/ExecToMemoryAccess_obj/io_in_valid">
+      <obj_property name="ElementShortName">io_in_valid</obj_property>
+      <obj_property name="ObjectShortName">io_in_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/MyCpu/HaiTangCPU/MemoryAccessToWB_obj/io_in_valid">
+      <obj_property name="ElementShortName">io_in_valid</obj_property>
+      <obj_property name="ObjectShortName">io_in_valid</obj_property>
+   </wvobject>
+</wave_config>
